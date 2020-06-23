@@ -1,3 +1,21 @@
+.pseudoelement
+  width: 300px
+  &:before
+    content: "hola"
+  .ie-8 &
+    &:before
+      content: "ciao"
+    img
+      margin-bottom: 0
+
 body, .redtext
   color red
   text-decoration underline
+  > .primerhijo
+    margin-bottom: 24px
+
+.btn
+  background-color: pink
+  border-radius: 2px
+  &--alert
+    background-color: red

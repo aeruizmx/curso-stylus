@@ -1,5 +1,28 @@
+.pseudoelement {
+  width: 300px;
+}
+.pseudoelement:before {
+  content: "hola";
+}
+.ie-8 .pseudoelement:before {
+  content: "ciao";
+}
+.ie-8 .pseudoelement img {
+  margin-bottom: 0;
+}
 body,
 .redtext {
   color: #f00;
   text-decoration: underline;
+}
+body > .primerhijo,
+.redtext > .primerhijo {
+  margin-bottom: 24px;
+}
+.btn {
+  background-color: #ffc0cb;
+  border-radius: 2px;
+}
+.btn--alert {
+  background-color: #f00;
 }
