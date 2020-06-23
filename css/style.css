@@ -1,3 +1,5 @@
-body {
+body,
+.redtext {
   color: #f00;
+  text-decoration: underline;
 }
