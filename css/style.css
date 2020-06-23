@@ -1,4 +1,5 @@
 .pseudoelement {
+  font-size: 17px;
   width: 300px;
 }
 .pseudoelement:before {
@@ -18,6 +19,7 @@ body,
 body > .primerhijo,
 .redtext > .primerhijo {
   margin-bottom: 24px;
+  font-size: 14px;
 }
 .btn {
   background-color: #ffc0cb;
@@ -25,4 +27,7 @@ body > .primerhijo,
 }
 .btn--alert {
   background-color: #f00;
+}
+p {
+  font-size: 17px;
 }
