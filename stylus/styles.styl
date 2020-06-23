@@ -13,3 +13,12 @@
 @import "components/_grid.styl"
 @import "components/_utilities.styl"
 
+tone(dark = true)
+  if dark
+    color: white
+    background: black
+  else
+    color: black
+    background: white
+.div
+  tone(white)
